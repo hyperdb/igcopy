@@ -1,0 +1,27 @@
+# バイナリ・実行ファイル (Build artifacts)
+# プロジェクト名に合わせて適宜変更してください
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+bin/
+out/
+
+# テスト結果やカバレッジ (Test artifacts)
+*.test
+*.out
+coverage.txt
+
+# 依存関係 (Dependencies)
+# vendor/ をコミットしない場合はコメントアウトを外します
+# vendor/
+
+# OS/エディタ固有のファイル
+.DS_Store
+.idea/
+.vscode/
+*.swp
+
+# 環境変数ファイル (Secrets)
+.env
